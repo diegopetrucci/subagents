@@ -1,4 +1,4 @@
-name = "notes_maintainer"
+name = "agent_notes_mantainer"
 description = "Maintains .agents/notes.md when the parent agent decides a repo lesson should be recorded."
 model = "gpt-5.4-mini"
 model_reasoning_effort = "low"
@@ -33,7 +33,7 @@ Boundaries:
 - Do not make unrelated edits.
 
 Return format:
-Return exactly one line:
+Return exactly two lines:
 status: finished | blocked
 detail: added new note | updated existing note | promoted note | pruned stale note | <blocked reason>
 """

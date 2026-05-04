@@ -39,7 +39,7 @@ cp /path/to/subagents/ios-macos-test-runner/ios-macos-test-runner.toml .codex/ag
 Ask Codex to spawn the custom agent by name, for example:
 
 ```text
-Spawn notes_maintainer to record this repo lesson: <lesson>
+Spawn agent_notes_mantainer to record this repo lesson: <lesson>
 ```
 
 ```text

@@ -5,7 +5,7 @@ Maintains `.agents/notes.md` when the parent agent decides a repo lesson should 
 ## Agent file
 
 - [`agent_notes_maintainer.toml`](./agent_notes_maintainer.toml)
-- Codex name: `notes_maintainer`
+- Codex name: `agent_notes_mantainer`
 
 ## What it does
 
@@ -26,7 +26,7 @@ cp agent_notes_maintainer.toml ~/.codex/agents/
 ## Example prompt
 
 ```text
-Spawn notes_maintainer to record this repo lesson: <lesson>
+Spawn agent_notes_mantainer to record this repo lesson: <lesson>
 ```
 
 This agent is based on my SendItToMy workflow, so adapt the repository rules before using it elsewhere.
